@@ -1,0 +1,150 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOnSUsIVLobTo05XWFYLSf1",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Bilqisnajwa/aplikasi-cashier-susu-nusantara-2/blob/main/Susu%20penjelasan\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "406rslvh-lNr"
+      },
+      "outputs": [],
+      "source": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "\n",
+        "🧾 PENJELASAN FITUR-FITUR\n",
+        "1. Menampilkan Menu Susu (dengan stok & harga)\n",
+        "Ditampilkan setiap kali program berjalan atau kembali ke menu utama.\n",
+        "\n",
+        "Menampilkan daftar minuman seperti:\n",
+        "\n",
+        "scss\n",
+        "Salin\n",
+        "Edit\n",
+        "1. susu nasional - Rp1000(stok: 8)\n",
+        "2. susu nusantara - Rp2500(stok: 10)\n",
+        "3. susu latte - Rp5000(stok: 11)\n",
+        "Informasi ini membantu pembeli melihat opsi dan sisa stok.\n",
+        "\n",
+        "2. Tambah Susu ke Keranjang\n",
+        "Pengguna memilih angka 1-3 sesuai dengan susu yang diinginkan.\n",
+        "\n",
+        "Sistem akan:\n",
+        "\n",
+        "Mengurangi stok susu yang dipilih\n",
+        "\n",
+        "Menambahkan susu ke keranjang pesanan\n",
+        "\n",
+        "Menampilkan konfirmasi seperti:\n",
+        "\n",
+        "Salin\n",
+        "Edit\n",
+        "✅ Susu Nusantara ditambahin ke keranjang.\n",
+        "Catatan: Kalau stok habis, akan muncul pesan:\n",
+        "\n",
+        "Salin\n",
+        "Edit\n",
+        "❌ Maaf kak, stoknya habis.\n",
+        "3. Lihat Keranjang Pesanan\n",
+        "Menampilkan isi keranjang saat ini:\n",
+        "\n",
+        "markdown\n",
+        "Salin\n",
+        "Edit\n",
+        "🧾 Isi Keranjang:\n",
+        "1. Susu Nusantara - Rp2500\n",
+        "2. Susu Latte - Rp5000\n",
+        "💳 Total bayar: Rp7500\n",
+        "Berguna untuk mengecek ulang sebelum checkout.\n",
+        "\n",
+        "4. Checkout\n",
+        "Mengkonfirmasi apakah pengguna ingin menyelesaikan pesanan.\n",
+        "\n",
+        "Jika dikonfirmasi (y), akan:\n",
+        "\n",
+        "Menampilkan total belanja\n",
+        "\n",
+        "Menghapus isi keranjang\n",
+        "\n",
+        "Mencatat ke laporan penjualan\n",
+        "\n",
+        "Menampilkan pesan:\n",
+        "\n",
+        "Salin\n",
+        "Edit\n",
+        "🎉 Terima kasih kak! Pesanan kamu sedang diproses.\n",
+        "Jika tidak (n), akan membatalkan proses checkout:\n",
+        "\n",
+        "Salin\n",
+        "Edit\n",
+        "🛑 Checkout dibatalin.\n",
+        "5. Laporan Penjualan\n",
+        "Menampilkan semua susu yang telah dibeli selama sesi berjalan.\n",
+        "\n",
+        "Contoh output:\n",
+        "\n",
+        "markdown\n",
+        "Salin\n",
+        "Edit\n",
+        "📈 Laporan Penjualan:\n",
+        "1. Susu Nusantara - Rp2500\n",
+        "2. Susu Latte - Rp5000\n",
+        "💰 Total pendapatan: Rp7500\n",
+        "6. Backup Data\n",
+        "Menyimpan seluruh transaksi penjualan ke dalam file .txt otomatis.\n",
+        "\n",
+        "Nama file disesuaikan dengan tanggal & jam saat backup, misalnya:\n",
+        "\n",
+        "Salin\n",
+        "Edit\n",
+        "backup_penjualan_20250727_191500.txt\n",
+        "Isi file:\n",
+        "\n",
+        "yaml\n",
+        "Salin\n",
+        "Edit\n",
+        "Laporan Penjualan:\n",
+        "Susu Nusantara - Rp2500\n",
+        "Susu Latte - Rp5000\n",
+        "Total: Rp7500\n",
+        "7. Keluar Program\n",
+        "Mengakhiri aplikasi dengan pesan yang ramah:\n",
+        "\n",
+        "nginx\n",
+        "Salin\n",
+        "Edit\n",
+        "makasih banyak sudah mampir kak! Sampai jumpa 🤗\n"
+      ],
+      "metadata": {
+        "id": "NoC5oiGl-nPk"
+      }
+    }
+  ]
+}
