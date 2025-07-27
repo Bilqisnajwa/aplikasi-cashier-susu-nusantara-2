@@ -1,3 +1,7 @@
+https://colab.research.google.com/drive/12IaoO9vDqzEvfKvaGQPPX_5Rxp-otzOW?usp=sharing
+
+
+
 # aplikasi-cashier-susu-nusantara-2
 **FITUR**
 1. Pilih susu ke daftar pesanan
@@ -19,6 +23,7 @@
 1. Susu Nasional-Rp1000
 2. Susu Nusantara-Rp2500
 3. Susu Latte-Rp5000
+
 
 
 **STRUKTUR KODE**
