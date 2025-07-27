@@ -19,7 +19,7 @@ https://colab.research.google.com/drive/12IaoO9vDqzEvfKvaGQPPX_5Rxp-otzOW?usp=sh
    python susu order py
 
 
-   **MENU KOPI**
+   **MENU SUSU**
 1. Susu Nasional-Rp1000
 2. Susu Nusantara-Rp2500
 3. Susu Latte-Rp5000
